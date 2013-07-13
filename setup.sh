@@ -34,10 +34,10 @@ fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
-git clone https://github.com/startup-class/dotfiles.git
-ln -sb dotfiles/.screenrc .
-ln -sb dotfiles/.bash_profile .
-ln -sb dotfiles/.bashrc .
-ln -sb dotfiles/.bashrc_custom .
-ln -sf dotfiles/.emacs.d .
+git clone https://github.com/rilkeanheart/aws-dev-dotfiles.git
+ln -sb aws-dev-dotfiles/.screenrc .
+ln -sb aws-dev-dotfiles/.bash_profile .
+ln -sb aws-dev-dotfiles/.bashrc .
+ln -sb aws-dev-dotfiles/.bashrc_custom .
+ln -sf aws-dev-dotfiles/.emacs.d .
 
